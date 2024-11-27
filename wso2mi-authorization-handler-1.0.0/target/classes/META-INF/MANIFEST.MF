@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Export-Package: com.cbs.auth.handlers;uses:="org.apache.synapse.rest,o
+ rg.wso2.micro.integrator.security.user.api,org.apache.axis2.context,o
+ rg.apache.axis2.transport.http,org.wso2.micro.integrator.security,org
+ .apache.axis2.addressing,org.apache.synapse.core.axis2,org.apache.com
+ mons.logging,org.apache.commons.codec.binary,org.apache.synapse"
+Bundle-SymbolicName: wso2-authorization-handler
+Bundle-Name: wso2-authorization-handler
+Bundle-Version: 1.0
+Built-By: chethan
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1732690580820
+Import-Package: com.cbs.auth.handlers;resolution:=optional,org.apache.
+ axis2.addressing;version="1.6.1.wso2v72";resolution:=optional,org.apa
+ che.axis2.context;version="1.6.1.wso2v72";resolution:=optional,org.ap
+ ache.axis2.transport.http;version="1.6.1.wso2v72";resolution:=optiona
+ l,org.apache.commons.codec.binary;resolution:=optional,org.apache.com
+ mons.logging;version="1.2";resolution:=optional,org.apache.synapse;ve
+ rsion="2.1";resolution:=optional,org.apache.synapse.core.axis2;versio
+ n="2.1";resolution:=optional,org.apache.synapse.rest;version="2.1";re
+ solution:=optional,org.wso2.micro.integrator.security;version="4.1.0.
+ m1";resolution:=optional,org.wso2.micro.integrator.security.user.api;
+ version="4.1.0.m1";resolution:=optional
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-0.0.238
+Build-Jdk: 1.8.0_422
+
